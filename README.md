@@ -37,6 +37,17 @@ CSR
 ![1_CRiH0hUGoS3aoZaIY4H2yg](https://user-images.githubusercontent.com/45092135/141682696-ecaa9850-c3e9-4aff-9b3e-2bb8d966bd82.png)
 
 
+# Related Content
+
+## Critical Rendering Path
+
+> The Critical Rendering Path is the sequence of steps the browser goes through to convert the HTML, CSS, and JavaScript into pixels on the screen. 
+Optimizing the critical render path improves render performance. The critical rendering path includes the Document Object Model (DOM), CSS Object Model (CSSOM), render tree and layout.
+
+## Web page build process
+
+
+
     
 reference
 * https://www.youtube.com/watch?v=8_RzRQXSHcg
