@@ -6,3 +6,8 @@ require('@babel/register')({
 })
 
 require('./server')
+
+// regiseter = use babel
+// preest = import lib 
+// https://babeljs.io/docs/en/
+//https://babeljs.io/docs/en/presets
