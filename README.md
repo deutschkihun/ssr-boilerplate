@@ -1,34 +1,42 @@
 # Server side rendering (SSR) 
 > Server side rendering is the process of taking a client-side javascript framework website and rendering it to static HTML and CSS on the **server**. 
-SSR is very useful for fast loading (rendering) websites. By using SSR, HTML will be generated on the server and send that donw to the browser. 
+SSR is very useful for fast loading (rendering) websites. By using SSR, HTML will be generated on the server and send that donw to the browser. SSR is 
+for MPA (multi page apps) which means that each page is rendered on the server, not on the client. 
 
 
-# Advantage of SSR ( compare with Client side rendering (CSR))
+# SSR vs CSR (Client side rendering) 
+
+SSR 
+
+    * Serving up a new HTML document on each request by server
+    
+    * loading and parsing CSS to the UI
+   
+    * loading and parsing deferred (postpone) JavaScript by server
+    
+    * Router natigates user to the new rendered page
+    
+    * Cacheing assets (CSS,JS,img) for faster page load by browser
+    
+    * Server cache static HTML on a CDN for loading time
+
+![1_jJkEQpgZ8waQ5P-W5lhxuQ](https://user-images.githubusercontent.com/45092135/141682701-57d84dfa-f90c-4974-bdc3-ac62e86cb8af.png)
+
+CSR
+
+    * SPA (single page apps) which means that each page is rendered on the client, not on the server
+ 
+    * Serving up a single static **index.html** document by server
+
+    * Parsing and loading HTML,CSS, Img, and JS 
+
+    * JS bundle, construct DOM 
+ 
+    * heavy JS dependency 
+
+![1_CRiH0hUGoS3aoZaIY4H2yg](https://user-images.githubusercontent.com/45092135/141682696-ecaa9850-c3e9-4aff-9b3e-2bb8d966bd82.png)
 
 
-## Structure
-
-> This project consists of following file structure. 
-
-
-    * controllers: controlling different endpoints (URIS) by find,query ... 
-    
-    * db: database connection file by using mongoose.connection()
-    
-    * error: custom error handling file by extending from "Error" class.
-    
-    * middleware: It has access to the request object (req), the response object (res), 
-      and the next middleware function in the application’s request-response cycle. 
-    
-    * models: Mongo DB Schema file. This file will be used to build a collection(table) in database. 
-    
-    * routes: Routing refers to determining how an application responds to a client request to a particular endpoint, 
-      which is a URI (or path) and a specific HTTP request method (GET, POST, and so on).
-    
-    * .env: environmentent variable file. This file contains MONGO_URI for mongodb connection. This file has to be secured.
-      Therefore, make sure that this file should not be pushed in to remote branch. (Always be a member of gitignore) 
-    
-    * app.js: project starting file. If you run this project, app.js will be executed first. 
     
 reference
 * https://www.youtube.com/watch?v=8_RzRQXSHcg
