@@ -46,7 +46,25 @@ Optimizing the critical render path improves render performance. The critical re
 
 ## Web page build process
 
+   * Constructing Document Object Model (DOM)tree 
+      * DOM: Object-model based representation of HTML documents. It is depicted as a node tree, not as a html document.
+      * DOM tree: Object-model based representation of **fully parsed** HTML documents.
+      * Parsing: Process of decomposing a series of strings or text into tokens and analysing the relationship between them.
+ 
+   * Constructing CSSOM (CSS Object Model)tree 
+      * CSSOM: Style associated with DOM, CSS must be fully parsed because of inherit cascading nature.
+      * CSSOM + DOM = Render Tree, Render Tree cannot be constructed without fully parsed resource. 
+      
+   * Running Javascript (by script tag) 
+   * Creating Render tree 
+      * Tree that represents what will be rendered on the page. It means, if there is something which will not be included in the viewport, 
+       it will be excluded from Render Tree. Such as html tag with CSS properties (display:none), this one will not be included in Render Tree
 
+   * Generating the Layout 
+      * Calculating the size and position of each visible element on the page by meta tag
+
+   * Painting 
+      * Painting the pixels to the screen
 
     
 reference
