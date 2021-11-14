@@ -1,7 +1,10 @@
 # Server side rendering (SSR) 
-> Server side rendering is the process of taking a client-side javascript framework website and rendering it to static HTML and CSS on the server. 
-Why is this important ? We want fast loading websites and SSR is a tool to help you get your website rendered faster. 
-How faster the browser renders your app depends on how you build it. Because with server side rendering we can generate the HTML on the server send that down to the browser. 
+> Server side rendering is the process of taking a client-side javascript framework website and rendering it to static HTML and CSS on the **server**. 
+SSR is very useful for fast loading (rendering) websites. By using SSR, HTML will be generated on the server and send that donw to the browser. 
+
+
+# Advantage of SSR ( compare with Client side rendering (CSR))
+
 
 ## Structure
 
@@ -31,3 +34,4 @@ reference
 * https://www.youtube.com/watch?v=8_RzRQXSHcg
 * https://www.youtube.com/watch?v=GQzn7XRdzxY
 * https://www.youtube.com/watch?v=NwyQONeqRXA
+* https://medium.com/walmartglobaltech/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8
