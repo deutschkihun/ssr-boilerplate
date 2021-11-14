@@ -37,6 +37,14 @@ CSR
 ![1_CRiH0hUGoS3aoZaIY4H2yg](https://user-images.githubusercontent.com/45092135/141682696-ecaa9850-c3e9-4aff-9b3e-2bb8d966bd82.png)
 
 
+# How to use this app 
+
+ ```bash
+ $ npm run ssr : redering app by server 
+ ```
+
+This command will call babel hook "register" 
+
 # Related Content
 
 ## Critical Rendering Path
@@ -73,3 +81,4 @@ reference
 * https://www.youtube.com/watch?v=NwyQONeqRXA
 * https://medium.com/walmartglobaltech/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8
 * https://www.youtube.com/watch?v=GQzn7XRdzxY
+* https://babeljs.io/docs/en/babel-register/
