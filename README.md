@@ -43,3 +43,4 @@ reference
 * https://www.youtube.com/watch?v=GQzn7XRdzxY
 * https://www.youtube.com/watch?v=NwyQONeqRXA
 * https://medium.com/walmartglobaltech/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8
+* https://www.youtube.com/watch?v=GQzn7XRdzxY
