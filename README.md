@@ -1,7 +1,6 @@
 # Server side rendering (SSR) 
 > Server side rendering is the process of taking a client-side javascript framework website and rendering it to static HTML and CSS on the **server**. 
-SSR is very useful for fast loading (rendering) websites. By using SSR, HTML will be generated on the server and send that donw to the browser. SSR is 
-for MPA (multi page apps) which means that each page is rendered on the server, not on the client. 
+SSR is very useful for fast loading (rendering) websites. SSR is for MPA (multi page apps) which means that each page is rendered on the server, not on the client. 
 
 
 # SSR vs CSR (Client side rendering) 
