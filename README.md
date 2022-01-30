@@ -1,6 +1,6 @@
 # Server side rendering (SSR) 
 > Server side rendering is the process of taking a client-side javascript framework website and rendering it to static HTML and CSS on the **server**. 
-SSR is very useful for fast loading (rendering) websites. SSR is for MPA (multi page apps) which means that each page is rendered on the server, not on the client. 
+SSR is very useful for fast loading (rendering) websites. SSR is for MPA (multi page apps) which means that each page is rendered on the server, not on the client. In other words, we called Isomorphic or Universal
 
 
 # SSR vs CSR (Client side rendering) 
@@ -35,23 +35,15 @@ CSR
 
 ![1_CRiH0hUGoS3aoZaIY4H2yg](https://user-images.githubusercontent.com/45092135/141682696-ecaa9850-c3e9-4aff-9b3e-2bb8d966bd82.png)
 
-
-# How to start this app 
-
- ```bash
- $ npm run ssr : redering app by server 
- ```
-
-This command will call babel hook "register" 
-
-when rendering process happens in server side, then preview after networking looks like this
+![Screenshot 2022-01-30 at 14 40 37](https://user-images.githubusercontent.com/45092135/151712069-e6503348-bab0-41ee-85f5-975bb700e1c7.png)
 
 
-![Screenshot 2022-01-29 at 21 37 56](https://user-images.githubusercontent.com/45092135/151676828-c88f8824-0f56-4daa-b448-2ac6cfcfed67.png)
+# Benefit of SSR 
 
-This is when server side rendering works successfully.
-
-
+    * Improve SEO (search engine optimization)
+    
+    * Faster loading time
+    
 # Related Content
 
 ## Critical Rendering Path
